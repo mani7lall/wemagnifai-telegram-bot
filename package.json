@@ -1,0 +1,23 @@
+{
+  "name": "wemagnifai-telegram-bot",
+  "version": "1.0.0",
+  "description": "WeMagnifAI Telegram Growth Autopilot",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "groq-sdk": "^0.3.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "@types/node-telegram-bot-api": "^0.64.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
